@@ -1,64 +1,8 @@
-# print("mothers")
-# print("mother\'s")
-# print("\"mother\'s\"")
-# print("\'mother\'s\'")
-
-# name = "Ram"
-# age = 18
-# address = "Naxal"
-# email = "ram12@gmail.com"
-# print("My name is",name)
-# print("My age is",age)
-# print("I live in",address)
-# print("My eamil is",email)
-
-
-# name = input("Enter your name: ")
-# age = input("Enter your age: ")
-# address = input("Enter your address: ")
-# email = input("Enter your email: ")
-# phone = input("Enter your number: ")
-# print('My name is', name)
-# print('My age is', age)
-# print('I live in', address)
-# print('My email is', email)
-# print('My number is', phone)
-
-
-#Complex number: [realnumber and image]
-# x=2+3j
-# print(x.real)
-# print(x.imag)
-
-#paragraph:
-# para="   pyhton for beginners in it nepal"
-# print(para.upper())
-# print(para.capitalize())
-# print(para.title())
-# print(para.lstrip())
-# print(dir(para))
-#[to see directory]
-
-#Addition & Subtraction:
-# x=int(input('Enter a number: '))
-# y=int(input('Enter a number: '))
-# print(f'Addition: {x+y}')
-
-# x=int(input('Enter a number: '))
-# y=int(input('Enter a number: '))
-# print(f'Subtraction: {x-y}')
-
-#can call for 100 mins [10/10min farak]
-#clause:[ntc-ncell   [2
-# ncell-ntc           5
-# ntc-ntc             1.5
-# ncell-ncell         1
-#
-# #1QUESTION(COMPUTER BAZAR):
-# #dell=20000, toshiba=30000, mac=50000
-# #giving options and making them select
-# #give them delivery option
-# #give them packaging option
+#1QUESTION(COMPUTER BAZAR):
+#dell=20000, toshiba=30000, mac=50000
+#giving options and making them select
+#give them delivery option
+#give them packaging option
 # print("==========Computer Bazar==========")
 # print("Product items: 1.Dell(Rs:20000) 2.Toshiba(Rs:30000) 3.Mac(Rs:50000)")
 # option = int(input("Select any option: "))
@@ -113,3 +57,17 @@
 # grand_total = total * quantity + delivery_charge + p_bag_price + p_plastic_bag_price + p_gift_box_price + tax_amount
 # print("=========Bill================")
 # print(f"Total Price: {total}  total quantity {quantity} tax amount {tax_amount} grand total {grand_total}")
+
+#2QUESTION(CAlls)
+#can call for 100 mins [10/10min farak]
+#clause:[ntc-ncell   [2.5
+# ncell-ntc           5
+# ntc-ntc             1.5
+# ncell-ncell         0.5]
+print("=======CALLS========")
+print("1.ntc-ncell 2.ncell-ntc 3.ntc-ntc 4.ncell-ncell")
+option=int(input("Enter your choice: "))
+bonus=0
+duration=0
+if option == 1:
+    time = int(input("Enter time duration: "))

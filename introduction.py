@@ -235,12 +235,12 @@
 #     'name':'ram',
 #     'age':20,
 #     'address':'kathamndu'
-#}
+# }
 # print(data.keys())
 # print(data.values())
 # print(data.items())
 # print(data.get('name'))
-
-#print(data['email'].append('ram12@gmail.com'))
-#cannot append directly in dictionary, we should make object and append
+#
+# print(data['email'].append('ram12@gmail.com'))
+# cannot append directly in dictionary, we should make object and append
 
